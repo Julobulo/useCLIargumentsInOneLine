@@ -21,7 +21,7 @@ def useCLIarguments(dictOfArgumentsGiven: dict, dictOfOptionsGiven: dict, caseIn
         if not len(dictOfOptionsGiven) == 0:
             print("\n\t\tYou CAN write these options (don't know if you have to write them?: don't write them):")
         for item in dictOfOptionsGiven:
-            print("\t\t\t\t-" + "\"" + item + "\"")
+            print("\t\t\t\t-" + "\"-" + item + "\"")
         if len(dictOfArgumentsGiven) == 0 and len(dictOfOptionsGiven) == 0:
             print("There are no arguments/options availiable for this script!")
             exit()
